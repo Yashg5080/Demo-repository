@@ -1,0 +1,17 @@
+Setting up  username and email
+$ git config --global user.name "Yash"
+$ git config --global user.email "yashgupta50357@gmail.com"
+
+Listing all things
+$ git config --list
+
+changing our editor 
+$ git config --global core.editor vim
+$ git config --global core.editor emacs
+
+Getting our username and email
+$ git config user.name
+$ git config user.email
+
+Present Working directory
+$ pwd
