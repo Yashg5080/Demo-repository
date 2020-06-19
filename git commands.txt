@@ -15,3 +15,32 @@ $ git config user.email
 
 Present Working directory
 $ pwd
+
+Initializing a git repo
+$ git init
+
+Checking the status of repository
+$ git status
+
+putting all files to staging area
+$ git add --a
+
+Commit the changes after staging
+$ git commit -m"Initial Commit"
+
+We can also add files of our choice to staging
+$ git add test.txt
+
+Then commit changes
+$ git commit -m "Changed test.txt with some changes"
+
+
+Delete the content of folder
+rm -rf .git
+
+Clone a git repository
+$ git clone https://github.com/numpy/numpy.git
+
+ 
+
+
