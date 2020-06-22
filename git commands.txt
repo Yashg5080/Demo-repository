@@ -54,7 +54,7 @@ To ignore a file just add it to .gitignore
 Compare working directory with staging area
 $ git diff
 
-Compare [revious commit with currrent staging area
+Compare previous commit with currrent staging area
 $ git diff --staged
 
 
