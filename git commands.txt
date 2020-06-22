@@ -28,6 +28,11 @@ $ git add --a
 Commit the changes after staging
 $ git commit -m"Initial Commit"
 
+
+Commit without staging
+$ git commit -a -m"Direct Commit"
+
+
 We can also add files of our choice to staging
 $ git add test.txt
 
@@ -41,6 +46,17 @@ rm -rf .git
 Clone a git repository
 $ git clone https://github.com/numpy/numpy.git
 
- 
+Creating a file using linux commands
+$ touch error.log
+
+To ignore a file just add it to .gitignore 
+
+Compare working directory with staging area
+$ git diff
+
+Compare [revious commit with currrent staging area
+$ git diff --staged
+
+
 
 
