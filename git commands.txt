@@ -57,6 +57,73 @@ $ git diff
 Compare previous commit with currrent staging area
 $ git diff --staged
 
+Removing a file through git
+$ git rm t.txt
+
+Renaming a file through git
+$ git mv test.txt test_rename.txt
+
+Untrack the file by adding it to .gitignore and running th following command
+$ git rm --cached test_rename.txt
+
+ 
+To view the changes done in every commit along with diff i.e differrences
+$ git log -p
+
+To view the changes done in every commit along with diff i.e differrences and specify the number of commits.
+$ git log -p -3
+
+To see the short stats about every commit
+$ git log --stat
+
+To see all the commits in one line
+$ git log --pretty=oneline
+
+To see short info about commit
+$ git log --pretty=short
+
+To see more info about commit
+$ git log --pretty=short
+
+To see commits in past few days
+$ git log --since=2.days 
+ 
+
+To see commits in past few weeks
+$ git log --since=2.weeks
+
+To show commits in particular format(using filters in git log)
+$ git log --pretty=format:"%h -- %an"
+
+To change someone's commit
+$ git commit --ammend
+
+To unstage a file 
+$ git restore --staged filename.txt
+
+To restore the changes in the file
+$ git checkout -- filename.txt
+
+If you want to go to to previous commit
+$ git checkout -f
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
