@@ -107,7 +107,14 @@ $ git checkout -- filename.txt
 If you want to go to to previous commit
 $ git checkout -f
 
+Making our repository as remote
+$ git remote add origin git@github.com:Yashg5080/Demo-repository.git
 
+Check name of link
+$ git remote
+
+Check push pull files
+$ git remote -v
 
 
 
