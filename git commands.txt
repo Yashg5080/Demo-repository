@@ -116,21 +116,54 @@ $ git remote
 Check push pull files
 $ git remote -v
 
+Setting an alias name for commit(We can set it for any command)
+$ git config --global alias.ci "commit"
 
 
+To create a new (Here we are creating a branch named develop)
+$ git checkout -b develop
 
+To switch between branches
+$ git checkout develop
 
+To number of branches and name
+$ git branch
 
+To merge two branches
+$ git mergre branchname 
 
+To see branches and last commits of every branch
+$ git branch -v 
 
+Already merged branches
+$ git branch --merged
 
+All non-merged branches
+$ git branch --no-merged
 
+Deleting branches(gives error if branch is mot merged)
+$ git branch -d branchname 
 
-
-
-
-
-
-
+No error and branch gets deleted
+$ git branch -D branchname 
  
+Pushing branches to repository
+$ git push origin branchname
+
+Create another branch in github repo and copy content to that branch
+$ git push origin branchname:new branch name
+
+Delete a branch from remote
+$ git push -d origin branchname
+
+
+
+
+
+
+
+
+
+
+
 
